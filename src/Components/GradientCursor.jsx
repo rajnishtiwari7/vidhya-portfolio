@@ -15,7 +15,7 @@ export default function CustomCursor() {
     <>
       <style>{`* { cursor: none !important; }`}</style>
       <div
-        className="fixed top-0 left-0 w-4 h-4 md:w-5 md:h-5 rounded-full pointer-events-none z-[9999]
+        className="hidden lg:block fixed top-0 left-0 w-4 h-4 md:w-5 md:h-5 rounded-full pointer-events-none z-[9999]
                    bg-gradient-to-r from-purple-500 via-blue-500 to-sky-400
                    animate-gradient-slide opacity-90 blur-[2px] shadow-lg
                    transition-transform duration-75 ease-out"
