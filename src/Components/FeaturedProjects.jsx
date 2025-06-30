@@ -4,7 +4,7 @@ function ProjectCard({ img, title, description, tags, link }) {
   return (
     <div
       id="projects"
-      className="h-70 lg:h-110 w-100 rounded-2xl text-2xl bg-white p-1 mt-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+      className="h-100 lg:h-110 w-100 rounded-2xl text-2xl bg-white p-1 mt-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
     >
       <img src={img} alt="project-image" />
       <h2 className="m-4 font-semibold">{title}</h2>
